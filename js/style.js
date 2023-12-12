@@ -16,9 +16,7 @@ $(document).ready(function (){
     // $(window).on('load', function () {
     //   $('.ided').delay(500).fadeOut();
     // });
-    $(window).on('load',function (){
-    $('.ring').delay(50).fadeOut();
-    });
+
 
 }); 
 
