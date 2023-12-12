@@ -1,0 +1,24 @@
+@mixin after($bg,$w,$h,$l,$t){
+    position: absolute;
+    content: '';
+    background: $bg;
+    width: $w;
+    height: $h;
+    left: $l;
+    top: $t;
+    clip-path: polygon(0 26%, 24% 54%, 76% 54%, 75% 55%, 23% 55%, 0 27%);
+    z-index: 1;
+}
+
+@mixin beforeanimat ($bg,$w,$h,$l,$t){
+    position: absolute;
+    content: '';
+    background: $bg;
+    width: $w;
+    height: $h;
+    left: $l;
+    top: $t;
+    z-index: 1;
+    border-radius: 50%;
+    animation: load 1s   infinite alternate;
+}

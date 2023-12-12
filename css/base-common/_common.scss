@@ -1,0 +1,31 @@
+body {
+  background: url(../img/C-_Users_computer-market_Desktop_my-protfolio_img_5261634.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  width: 1124px;
+  margin: 0 auto;
+}
+
